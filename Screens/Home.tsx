@@ -1,10 +1,10 @@
 import {View, Text, StyleSheet} from 'react-native';
 import Header from '../components/Header/index';
-import EstimatedPaymentCard from '../components/EstimatedPaymentCard/index.js';
-import CustomCarousel from '../components/Carousel/index.js';
-import GoalAttainmentCard from '../components/GoalAttainmentCard/index.js';
-import GlanceCarousel from '../components/GlanceCarousel/index.js';
-import {useTheme} from '../ThemeConfig/ThemeContext.js';
+import EstimatedPaymentCard from '../components/EstimatedPaymentCard';
+import CustomCarousel from '../components/Carousel';
+import GoalAttainmentCard from '../components/GoalAttainmentCard';
+import GlanceCarousel from '../components/GlanceCarousel';
+import {useTheme} from '../ThemeConfig/ThemeContext';
 import React from 'react';
 
 const Home = () => {
